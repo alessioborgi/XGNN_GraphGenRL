@@ -2,6 +2,8 @@
 
 The project aim is to explore advanced methodologies for **interpreting Graph Neural Networks (GNNs)** at a **Model-level** granularity. By leveraging a **graph generation** approach, this work aims to produce human-interpretable patterns that reveal how GNNs make decisions, by individuating, in particular, network motifs that are uniquely defining a certain class. The MUTAG dataset, a widely used benchmark for graph classification, serves as the primary dataset to demonstrate these techniques. This technique, can be used with **ANY Graph Neural Network**!
 
+---
+
 
 ## Overview
 
@@ -54,8 +56,6 @@ The graph generation process is modeled as a **Markov Decision Process (MDP)** w
 - **Actions**: Adding nodes/edges while adhering to graph constraints.
 - **Rewards**: Encouraging valid, interpretable graphs that maximize the target class prediction score.
 
----
-
 ## Features
 
 ### Interpretability through Graph Generation
@@ -67,8 +67,6 @@ By generating human-intelligible graph patterns, this project demonstrates how G
 
 ### Flexibility for Multiple Applications
 While this project focuses on MUTAG, the framework can be adapted to other datasets and domains (e.g., social networks, protein interaction networks).
-
----
 
 ## Experimental Insights
 
@@ -90,10 +88,6 @@ The MUTAG dataset represents chemical compounds as graphs:
 ### Generalization Beyond MUTAG
 - The generator's modularity ensures it can handle datasets with different graph rules and structures.
 - Patterns discovered in one dataset can inform domain-specific improvements or broader scientific hypotheses.
-
----
-
-## Getting Started
 
 ### Prerequisites
 
