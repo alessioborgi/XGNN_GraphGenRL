@@ -2,19 +2,17 @@
 
 The project aim is to explore advanced methodologies for **interpreting Graph Neural Networks (GNNs)** at a **Model-level** granularity. By leveraging a **graph generation** approach, this work aims to produce human-interpretable patterns that reveal how GNNs make decisions, by individuating, in particular, network motifs that are uniquely defining a certain class. The MUTAG dataset, a widely used benchmark for graph classification, serves as the primary dataset to demonstrate these techniques. This technique, can be used with **ANY Graph Neural Network**!
 
----
 
 ## Overview
 
 ### Why Interpretability Matters
-**Graph Neural Networks (GNNs)** have emerged as a leading framework for tasks involving structured data such as social networks, biological molecules, and recommendation systems. Despite their performance, the inherent complexity of GNNs often renders them opaque, raising trust and usability issues. Applications in critical domains—chemistry, medicine, and social sciences—demand transparency and interpretability to ensure ethical and informed decision-making.
+**Graph Neural Networks (GNNs)** have emerged as a leading framework for tasks involving structured data such as social networks, biological molecules, and recommendation systems. Despite their performance, the inherent complexity of GNNs often renders them opaque, raising trust and usability issues. Chemistry, medicine, and social sciences applications in critical domains demand transparency and interpretability to ensure ethical and informed decision-making.
 
-This project aims to address this challenge by implementing **XGNN**, a framework designed to provide **model-level explanations** for GNNs. Instead of offering example-specific insights, XGNN uncovers general patterns and structures that GNNs rely on during predictions. These insights help:
+This project addresses this challenge by implementing **XGNN**, a framework that provides **model-level explanations** for GNNs. Instead of offering example-specific insights, XGNN uncovers general patterns and structures that GNNs rely on during predictions. These insights help:
 - Validate whether the model aligns with domain knowledge.
 - Build user trust by highlighting interpretable decision-making patterns.
 - Identify biases or inconsistencies for iterative model improvement.
 
----
 
 ## Architecture
 
