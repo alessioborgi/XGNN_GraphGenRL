@@ -38,7 +38,7 @@ The backbone of this project is a **Graph Convolutional Network (GCN)**, which p
   <img src="images/generator_architecture.png" alt="Screenshot" width="1200"/>
 </div>
 
-The graph generator is a critical component inspired by the XGNN framework. It employs reinforcement learning to iteratively build graphs that maximize the GNN's confidence for a specific class. Features include:
+The graph generator is a critical component. It employs reinforcement learning to iteratively build graphs that maximize the GNN's confidence for a specific class. Features include:
 1. **Graph Initialization**:
    - The process starts with a single node, such as a carbon atom for MUTAG.
 2. **Action Space**:
