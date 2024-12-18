@@ -1,5 +1,7 @@
 # XGNNs: Model-level Explanation of Graph Neural Networks with RL through Graph Generation
 
+#### Copyright © 2024 Alessio Borgi, Francesco Danese
+
 The project aim is to explore advanced methodologies for **interpreting Graph Neural Networks (GNNs)** at a **Model-level** granularity. By leveraging a **graph generation** approach, this work aims to produce human-interpretable patterns that reveal how GNNs make decisions, by individuating, in particular, network motifs that are uniquely defining a certain class. The MUTAG dataset, a widely used benchmark for graph classification, serves as the primary dataset to demonstrate these techniques. This technique, can be used with **ANY Graph Neural Network**!
 
 ---
