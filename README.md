@@ -87,6 +87,20 @@ The MUTAG dataset represents chemical compounds as graphs:
   - **Carbon Rings**: Indicate mutagenicity.
   - **Chlorine-Focused Structures**: Indicate non-mutagenicity.
 
+### Results Overview
+
+The figure illustrates the ability of our RL-enhanced Graph Neural Network (GNN) framework to generate molecular graphs while respecting specific structural properties. Each panel represents a molecular graph generated with a classification probability \(p_{c0}\) or \(p_{c1}\) corresponding to the probability of belonging to class \(C=0\) or \(C=1\), respectively.
+
+- **Top Row** (\(C=0\)): These graphs exhibit high classification probabilities for class \(C=0\), ranging from \(p_{c0} = 0.82\) to \(p_{c0} = 1.00\). This indicates that our model effectively captures molecular structures characteristic of this class.
+- **Bottom Row** (\(C=1\)): Similarly, the graphs generated for class \(C=1\) achieve high classification probabilities (\(p_{c1} = 0.95\) to \(p_{c1} = 0.99\)), demonstrating the framework's capacity to learn and replicate the features of this class.
+- **Structural Patterns**: The connectivity patterns and node types in the graphs align with the chemical rules and class-specific features, showcasing the GNN's capability to maintain molecular validity and class distinction during generation.
+
+This visualization highlights the success of our approach in combining RL and GNNs for controllable and class-specific graph generation, particularly in molecular datasets like MUTAG.
+
+<div style="text-align: center">
+  <img src="images/MUTAG_results.png" alt="Screenshot" width="1200"/>
+</div>
+
 ### Generalization Beyond MUTAG
 - The generator's modularity ensures it can handle datasets with different graph rules and structures.
 - Patterns discovered in one dataset can inform domain-specific improvements or broader scientific hypotheses.
